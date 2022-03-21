@@ -14,6 +14,12 @@
 Este código foi feito apenas para demonstração de habilidades e aprendizado, não recomendado o uso em produção ou comercial.
 O programa incluiu área para visitantes com envio de formularios, tela de login e telas para manipular estoque de produtos. 
 
+## Banco de dados
+Crie o banco de dados "sg" e execute as migrates com o comando abaixo para criar as tabelas necessárias:
+```shell
+ php artisan migrate
+```
+
 ## Configuração
 As credenciais do banco de dados estão no arquivo `./app/Db/Database.php` e você deve alterar para as configurações do seu ambiente (HOST, NAME, USER e PASS).
 
