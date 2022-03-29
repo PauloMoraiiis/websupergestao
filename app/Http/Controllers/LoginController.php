@@ -65,4 +65,9 @@ class LoginController extends Controller
             return redirect()->route('site.login', ['erro' => 1]);
         }
     }
+
+    public function sair() {
+        session_destroy();
+        return redirect()->route('site.index');
+    }
 }
