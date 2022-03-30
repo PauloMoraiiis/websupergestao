@@ -21,7 +21,7 @@
 
 ## CRUD com Laravel, PHP orientado a objetos, MySQL e Bootstrap.
 Este código foi feito apenas para demonstração de habilidades e aprendizado, não recomendado o uso em produção ou comercial.
-O programa incluiu área para visitantes com envio de formularios, tela de login e telas para manipular estoque de produtos. 
+O programa incluiu área para visitantes com envio de formularios, tela de login e em área restrita telas para manipular estoque de produtos de acordo com os fornecedores usando um banco de dados relacional. 
 
 ## Banco de dados
 Crie o banco de dados "sg" e execute as migrates com o comando abaixo para criar as tabelas necessárias:
