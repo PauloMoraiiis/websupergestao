@@ -11,6 +11,12 @@
 #Login
 ![Login](https://user-images.githubusercontent.com/87495655/160703310-a296949c-ed92-42b6-b3b7-5f20b47f646a.png)
 
+#Fornecedor/adicionar
+![Fornecedor/Adicionar](https://user-images.githubusercontent.com/87495655/160731465-410feef0-895f-4529-a2de-52193938f7ae.png)
+
+#Fornecedor/pesquisar
+![Fornecedor/Pesquisar](https://user-images.githubusercontent.com/87495655/160731653-eba62336-3429-4a3a-9710-31f49c205c50.png)
+
 
 
 ## CRUD com Laravel, PHP orientado a objetos, MySQL e Bootstrap.
