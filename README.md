@@ -18,7 +18,10 @@
 ![Fornecedor/Pesquisar](https://user-images.githubusercontent.com/87495655/160731653-eba62336-3429-4a3a-9710-31f49c205c50.png)
 
 #Fornecedor/Listar
-![Fornecedor/Listar](https://user-images.githubusercontent.com/87495655/160854871-685990af-10f7-4c80-a5dc-ffe23ba22e55.png)
+![Fornecedor/Listar](https://user-images.githubusercontent.com/87495655/160887501-9a28884e-6082-4664-be8a-7864abcc2c03.png)
+
+#Fornecedor/Editar
+![Fornecedor/Editar](https://user-images.githubusercontent.com/87495655/160887836-84d88287-65ca-43d5-b9d9-b5452f30dcbd.png)
 
 
 
