@@ -11,11 +11,14 @@
 #Login
 ![Login](https://user-images.githubusercontent.com/87495655/160703310-a296949c-ed92-42b6-b3b7-5f20b47f646a.png)
 
-#Fornecedor/adicionar
+#Fornecedor/Adicionar
 ![Fornecedor/Adicionar](https://user-images.githubusercontent.com/87495655/160731465-410feef0-895f-4529-a2de-52193938f7ae.png)
 
-#Fornecedor/pesquisar
+#Fornecedor/Pesquisar
 ![Fornecedor/Pesquisar](https://user-images.githubusercontent.com/87495655/160731653-eba62336-3429-4a3a-9710-31f49c205c50.png)
+
+#Fornecedor/Listar
+![Fornecedor/Listar](https://user-images.githubusercontent.com/87495655/160854871-685990af-10f7-4c80-a5dc-ffe23ba22e55.png)
 
 
 
