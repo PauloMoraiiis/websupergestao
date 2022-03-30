@@ -32,6 +32,7 @@ Route::middleware('autenticacao:padrao,visitante')->prefix('/app')->group(functi
     Route::get('/sair', 'LoginController@sair')->name('app.sair');
     Route::get('/cliente', 'ClienteController@index')->name('app.cliente');
 
+    //Rotas fornecedor
     Route::get('/fornecedor', 'FornecedorController@index')->name('app.fornecedor');
     Route::post('/fornecedor/listar', 'FornecedorController@listar')->name('app.fornecedor.listar');
     Route::get('/fornecedor/listar', 'FornecedorController@listar')->name('app.fornecedor.listar');
@@ -40,15 +41,12 @@ Route::middleware('autenticacao:padrao,visitante')->prefix('/app')->group(functi
     Route::get('/fornecedor/editar/{id}/{msg?}', 'FornecedorController@editar')->name('app.fornecedor.editar');
     Route::get('/fornecedor/excluir/{id}', 'FornecedorController@excluir')->name('app.fornecedor.excluir');
 
-    Route::get('/produto', 'ProdutoController@index')->name('app.produto');
+    //Rotas produto
+    Route::resource('produto', 'ProdutoController');
+
 });
 
 Route::get('/teste/{xyz}/{zzz}', 'TesteController@teste')->name('site.teste');
-
-
-
-
-
 
 route::fallback(function() {
     echo 'A rota acessada não existe. <a href="'.route('site.index').'">Clique aqui </a> para ir para a página inicial';
