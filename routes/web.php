@@ -44,6 +44,9 @@ Route::middleware('autenticacao:padrao,visitante')->prefix('/app')->group(functi
     //Rotas produto
     Route::resource('produto', 'ProdutoController');
 
+    //ptrroduto detalhes
+    Route::resource('produto-detalhe', 'ProdutoDetalheController');
+
 });
 
 Route::get('/teste/{xyz}/{zzz}', 'TesteController@teste')->name('site.teste');
