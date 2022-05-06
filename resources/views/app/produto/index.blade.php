@@ -3,7 +3,7 @@
 @section('titulo', 'Produto')
 
 @section('conteudo')
-    
+
     <div class="conteudo-pagina">
 
         <div class="titulo-pagina-2">
@@ -32,17 +32,17 @@
                                 <th>Altura</th>
                                 <th>Largura</th>
                             </tr>
-                        <tbody>   
+                        <tbody>
                             @foreach ($produtos as $produto)
                                 <tr>
                                     <td>{{ $produto->nome }}</td>
                                     <td>{{ $produto->descricao }}</td>
                                     <td>{{ $produto->peso }}</td>
                                     <td>{{ $produto->unidade_id }}</td>
-                                    <td>{{$produto->produtoDetalhe->comprimento ?? ''}}</td>
-                                    <td>{{$produto->produtoDetalhe->altura ?? ''}}</td>
-                                    <td>{{$produto->produtoDetalhe->largura ?? ''}}</td>
-                                    
+                                    <td>{{$produto->ItemDetalhe->comprimento ?? ''}}</td>
+                                    <td>{{$produto->ItemDetalhe->altura ?? ''}}</td>
+                                    <td>{{$produto->ItemDetalhe->largura ?? ''}}</td>
+
                                     <td><a href="{{ route('produto.show', ['produto' => $produto->id])}}">Visualizar</a></td>
 
                                     <td>
