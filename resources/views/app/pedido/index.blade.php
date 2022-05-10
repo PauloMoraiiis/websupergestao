@@ -28,6 +28,7 @@
                                 <th>Cliente</th>
                                 <th></th>
                                 <th></th>
+                                <th></th>
                             </tr>
                         <tbody>
                             @foreach ($pedidos as $pedido)
