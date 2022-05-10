@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ClienteController extends Controller
+class PedidoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -12,8 +12,8 @@ class ClienteController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    { 
-        return view('app.cliente');
+    {
+        //
     }
 
     /**
