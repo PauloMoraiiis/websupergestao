@@ -29,13 +29,14 @@
                                 <th></th>
                                 <th></th>
                                 <th></th>
+                                <th></th>
                             </tr>
                         <tbody>
                             @foreach ($pedidos as $pedido)
                                 <tr>
                                     <td>{{ $pedido->id }}</td>
                                     <td>{{ $pedido->cliente_id }}</td>
-                            
+                                    <td><a href="{{ route('pedido-produto.create', ['pedido' => $pedido->id])}}">Adicionar Produtos</a></td>
                                     <td><a href="{{ route('pedido.show', ['pedido' => $pedido->id])}}">Visualizar</a></td>
 
                                     <td>
