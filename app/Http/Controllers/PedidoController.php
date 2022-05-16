@@ -39,11 +39,11 @@ class PedidoController extends Controller
     public function store(Request $request)
     {
         $regras = [
-            'cliente_id' => 'exists:clientes,id'
+            'cliente_id' => 'exists:clientes,id',
         ];
 
         $feedback = [
-            'cliente_id.exists' => 'O cliente informado não existe'
+            'cliente_id.exists' => 'O cliente informado não existe',
         ];
 
         $request->validate($regras, $feedback);
